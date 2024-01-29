@@ -56,7 +56,7 @@ namespace TestPlugin
                 Chat.WriteLine($"   IsShadowlands: {Playfield.IsShadowlands}");
                 Chat.WriteLine($"   NumDynels: {DynelManager.AllDynels.Count}");
                 */
-
+                /*
                 Chat.WriteLine("Team:");
                 Chat.WriteLine($"\tIsInTeam: {Team.IsInTeam}");
                 Chat.WriteLine($"\tIsLeader: {Team.IsLeader}");
@@ -71,6 +71,7 @@ namespace TestPlugin
                 }
 
                 Chat.WriteLine("Tests:");
+                
 
                 /*
                 Chat.WriteLine($"Base stat: {DynelManager.LocalPlayer.GetStat(Stat.RunSpeed, 1)}");
